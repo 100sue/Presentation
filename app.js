@@ -1,0 +1,28 @@
+const textAnim = document.querySelector("h1");
+
+new Typewriter (textAnim, {
+    deleteSpeed: 40
+})
+.changeDelay(50)
+.typeString('Je suis Roland APPERT')
+.pauseFor(300)
+.typeString('<strong>, Dev Full-Stack</strong> !')
+.pause(1000)
+.deleteChars(13)
+.typeString('<span style="color: #D84923"> HTML</strong> !')
+.pause(1000)
+.deleteChars(6)
+.typeString('<span style="color: #2091EB"> CSS</strong> !')
+.pause(1000)
+.deleteChars(5)
+.typeString('<span style="color: #3EAF7C"> Vue</strong> !')
+.pause(1000)
+.deleteChars(5)
+.typeString('<span style="color: #89BB3C"> Node</strong> !')
+.pause(1000)
+.deleteChars(6)
+.typeString('<span style="color: #EAD41C"> JavaScript</strong> !')
+.pause(1000)
+.deleteChars(12)
+.typeString('<span style="color: #8c27e5"> Application M.E.V.N</strong> !')
+.start()
