@@ -27,5 +27,8 @@ new Typewriter (textAnim, {
 .typeString('<span style="color: #E3A652"> MySQL, MongoDb !')
 .pause(1000)
 .deleteChars(16)
+.typeString('<span style="color: #f7043d"> Pentest, Osint !')
+.pause(1000)
+.deleteChars(16)
 .typeString('<span style="color: #2966AF"> Application M.E.V.N !')
 .start()
