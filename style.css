@@ -21,7 +21,7 @@ body {
 
 h1 {
     font-size: 50px;
-    padding-top: 350px;
+    padding-top: 340px;
     padding-left: 200px;
 }
 .media-container {
@@ -60,3 +60,207 @@ h1 {
     color: #f1f1f1;
 }
 
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;   
+}
+section .box {
+    position: absolute;
+    top: 23%;
+    left: 38%;
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+}
+
+section .box div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateX(-20deg) rotateY(25deg) translate3d(-75px,-50px,150px);
+}
+
+section .box div span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+    background: #ccc;
+}
+
+section .box div span video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+ 
+}
+
+section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+   
+}
+
+
+section .box div span:nth-child(1) {
+    transform: rotateX(0deg) translate3d(0,0,200px);
+}
+section .box div span:nth-child(2) {
+    transform: rotateY(90deg) translate3d(0,0,-200px);
+}
+section .box div span:nth-child(2) video {
+    transform: rotateY(180deg);
+}
+section .box div span:nth-child(3) {
+    transform: rotateX(90deg) translate3d(0,0,200px);
+}
+
+/*section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #333 url("ressources/aceeuil2.jpg") center / cover no-repeat;
+
+}
+
+section h2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 5vw;
+    color: rgb(38, 93, 245);
+    font-weight: 700;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner .blocks {
+    position: relative;
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    animation: animate1 0.75s ease-in-out forwards;
+}
+
+.banner .blocks:nth-child(even) {
+    animation: animate1 1s ease-in-out forwards;
+}
+.banner .blocks:nth-child(7n+3) {
+    animation: animate1 2.5s ease-in-out forwards;
+}
+.banner .blocks:nth-child(7n+7) {
+    animation: animate1 1.5s ease-in-out forwards;
+}
+
+@keyframes animate1 {
+    0% {
+        opacity: 0;
+        transform: scale(0) translateY(1000px);
+    }
+    50% {
+        opacity: 1;
+        background: url("ressources/aceeuil2.jpg");
+        background-position: center;
+        background-attachment: fixed;
+        
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0px);
+        background: url("ressources/aceeuil2.jpg");
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+}*/
+
+
+
+.loader {
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #B1ADC4 url("ressources/aceeuil2.jpg") center / cover no-repeat;;
+    position: relative;
+    display: flex;
+}
+.loader span {
+    width: 50px;
+    height:  300px;
+    margin: 0 20px;
+    background-color: #B1ADC4 url("ressources/aceeuil2.jpg");
+    animation: animate 1.4s linear infinite;
+    animation-timing-function: 5s;
+    
+}
+
+.loader span:nth-child(1) {
+    animation-delay: 0s;
+}
+.loader span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.loader span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.loader span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.loader span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.loader span:nth-child(6) {
+    animation-delay: 1s;
+}
+.loader span:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 rgba(0,0,0,.5);
+        opacity: 0;
+        transform: translateX(-50px) scale(1);
+    }
+    50% {
+        box-shadow: 0 20px 50px rgba(0,0,0,.5);
+        opacity: 1;
+        transform: translateX(0px) scale(1.2);
+
+    }
+    100% {
+        box-shadow: 0 20px 50px rgba(0,0,0,.5);
+        opacity: 0;
+        transform: translateX(50px) scale(1);
+        
+    }
+
+}

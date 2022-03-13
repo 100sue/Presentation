@@ -32,3 +32,4 @@ new Typewriter (textAnim, {
 .deleteChars(16)
 .typeString('<span style="color: #2091EB"> Application M.E.V.N !')
 .start()
+
