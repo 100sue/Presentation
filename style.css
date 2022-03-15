@@ -24,6 +24,17 @@ h1 {
     padding-top: 340px;
     padding-left: 200px;
 }
+
+#evol {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#projet {
+    display: inline-block;
+    margin-top: 30px;
+}
+
 .media-container {
     display: flex;
     padding-left: 200px;
@@ -130,76 +141,6 @@ section .box div span:nth-child(2) video {
 section .box div span:nth-child(3) {
     transform: rotateX(90deg) translate3d(0,0,200px);
 }
-
-/*section {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: #333 url("ressources/aceeuil2.jpg") center / cover no-repeat;
-
-}
-
-section h2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    line-height: 100vh;
-    font-size: 5vw;
-    color: rgb(38, 93, 245);
-    font-weight: 700;
-}
-
-.banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.banner .blocks {
-    position: relative;
-    display: block;
-    width: 5vw;
-    height: 5vw;
-    animation: animate1 0.75s ease-in-out forwards;
-}
-
-.banner .blocks:nth-child(even) {
-    animation: animate1 1s ease-in-out forwards;
-}
-.banner .blocks:nth-child(7n+3) {
-    animation: animate1 2.5s ease-in-out forwards;
-}
-.banner .blocks:nth-child(7n+7) {
-    animation: animate1 1.5s ease-in-out forwards;
-}
-
-@keyframes animate1 {
-    0% {
-        opacity: 0;
-        transform: scale(0) translateY(1000px);
-    }
-    50% {
-        opacity: 1;
-        background: url("ressources/aceeuil2.jpg");
-        background-position: center;
-        background-attachment: fixed;
-        
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1) translateY(0px);
-        background: url("ressources/aceeuil2.jpg");
-        background-position: center;
-        background-attachment: fixed;
-    }
-
-}*/
 
 
 
