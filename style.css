@@ -29,12 +29,27 @@ h1 {
     display: inline-block;
     margin-top: 30px;
 }
+#evol2 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2px;
+}
 
 #projet {
     display: inline-block;
     margin-top: 30px;
 }
 
+#projet2 {
+    display: inline-block;
+    margin-top: 30px;
+}
+.media {
+    display: flex;
+    padding-left: 10px;
+    margin: 20px 0 40px 0;
+
+}
 .media-container {
     display: flex;
     padding-left: 200px;
